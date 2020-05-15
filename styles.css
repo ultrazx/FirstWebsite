@@ -1,0 +1,87 @@
+body {
+    background-color: blueviolet;
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    background-color: chartreuse;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+}
+nav ul li {
+float: right;
+margin-right: 50px;
+list-style-type: none;
+font-family: 'Acme', sans-serif
+
+}
+#brand {
+    float: left;
+}
+.nav-link {
+    color: coral;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+}
+#brand .nav-link {
+    color: white;
+    font-size: 14pt;
+}
+#brand .nav-link:hover {
+    color: red;
+}
+h1 {
+    font-size: 60pt;
+    font-family: 'Acme', sans-serif;
+}
+#home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+    background: url("https://images.unsplash.com/photo-1500099817043-86d46000d58f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80") center 75% no-repeat fixed;
+    background-size: cover;
+    padding: 30px;
+}
+.header-tag {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-shadow: 2px 2px 2px cyan;
+}
+h3.header-tag {
+    text-align: center;
+    margin-top: -30px;
+    font-size: 18pt;
+}
+h2 {
+    font-family: 'Acme', sans-serif;
+    color: lime;
+}
+.main {
+    text-align: center;
+}
+#about {
+    margin-top: 50px;
+    display: inline-block;
+}
+#about-picture {
+    width: 30vw;
+    float: left;
+}
+#profile-pic {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black;
+}
+#about-content {
+    width: 40vw;
+    float: right;
+}
